@@ -128,13 +128,13 @@ header.flex {
 
 /* Responsiveness for large screen tablets */
 @media (max-width: 768px) {
-    :root {
-        --mainLeftFontSize: 2rem;
-    }
-    
-    header h1 {
-        font-size: 1.5em;
-    }
+  :root {
+    --mainLeftFontSize: 2rem;
+  }
+
+  header h1 {
+    font-size: 1.5em;
+  }
 }
 
 /* Responsiveness for small screen tablets */
@@ -150,7 +150,6 @@ header.flex {
   header h1,
   header ul.flex {
     width: 100%;
-    
   }
 
   header h1 {
@@ -176,7 +175,6 @@ header.flex {
   header h1,
   header ul.flex {
     width: 100%;
-    
   }
 
   header h1 {
@@ -191,73 +189,70 @@ header.flex {
 
 /* Responsiveness for small screen androids */
 @media (max-width: 375px) {
-    :root {
-      --mainLeftFontSize: 1.5rem;
-    }
-  
-    header.flex {
-      flex-direction: column;
-    }
-  
-    header h1,
-    header ul.flex {
-      width: 100%;
-      
-    }
-  
-    header h1 {
-      font-size: 1.1em;
-      margin-bottom: 0;
-    }
-  
-    li {
-      font-size: 0.8em;
-    }
+  :root {
+    --mainLeftFontSize: 1.5rem;
   }
+
+  header.flex {
+    flex-direction: column;
+  }
+
+  header h1,
+  header ul.flex {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 1.1em;
+    margin-bottom: 0;
+  }
+
+  li {
+    font-size: 0.8em;
+  }
+}
 
 /* Responsiveness for small screen androids */
 @media (max-width: 340px) {
-    :root {
-      --mainLeftFontSize: 1rem;
-    }
-  
-    header.flex {
-      flex-direction: column;
-    }
-  
-    header h1,
-    header ul.flex {
-      width: 100%;
-      
-    }
-  
-    header h1 {
-      font-size: 0.8em;
-      margin-bottom: 0;
-    }
-  
-    li {
-      font-size: 0.6em;
-    }
+  :root {
+    --mainLeftFontSize: 1rem;
   }
+
+  header.flex {
+    flex-direction: column;
+  }
+
+  header h1,
+  header ul.flex {
+    width: 100%;
+  }
+
+  header h1 {
+    font-size: 0.8em;
+    margin-bottom: 0;
+  }
+
+  li {
+    font-size: 0.6em;
+  }
+}
 
 /* Responsiveness for rest small mobiles */
 @media (max-width: 240px) {
-    html
-    {
-        font-size: 10px;
-    }
-
-    header.flex {
-        flex-direction: column;
-      }
-    
-      header h1,
-      header ul.flex {
-        width: 100%;
-      }
-    
-      header h1 {
-        margin-bottom: 0;
-      }
+  html {
+    font-size: 10px;
   }
+
+  header.flex {
+    flex-direction: column;
+  }
+
+  header h1,
+  header ul.flex {
+    width: 100%;
+  }
+
+  header h1 {
+    margin-bottom: 0;
+  }
+}
